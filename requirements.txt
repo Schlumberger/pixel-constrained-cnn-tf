@@ -1,0 +1,6 @@
+numpy==1.14.0
+scipy==0.19.1
+tensorflow==1.4.1
+tensorflow
+matplotlib==2.0.0
+scikit-image==0.13.1
