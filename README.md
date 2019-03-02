@@ -26,7 +26,7 @@ Firstly, clone the repository and install all dependencies for the code.
 
 #### In a directory of your choice, run the following
 ```
-git clone https://github.com/Schlumberger/ML_code_playground.git
+git clone https://github.com/Schlumberger/pixel-constrained-cnn-tf
 cd pixel-constrained-cnn-tf
 pip install -r requirements.txt # Install dependencies
 ```
@@ -48,7 +48,7 @@ python tools/train.py --img_list_path data/train.txt --mask_type bottom --mask_a
 To generate images using an already trained pixel constarined CNN model, use `tools/test.py`. For example, to generate 64 completions using a trained TensorFlow model located in `models/model-celeba` for images specified in the image_list located in `data/test.txt` by conditioning the images using random blobs, we run the following command:
 
 ```
-python tools/test.py --imgs_list_path data/test.txt --model_name models/model-celeba --gen_type sample --num_samples 64 --mask_type blob 
+python tools/test.py --imgs_list_path data/test.txt --model_name models/model-celeba --gen_type sample --num_samples 64 --mask_type random_blob 
 ```
 
 A complete list of test options can be found in `tools/tets.py`. For example, there are 3 generation types to choose from while inpainting the images:
