@@ -13,10 +13,12 @@ Pixel Constrained CNN consists of a prior network (maksed convolutions as descri
 <img src="https://github.com/Schlumberger/ML_code_playground/blob/master/pixel_cnn_pattern_modeling/imgs/network_architecture.png" width='400'>
 
 ## Examples
-
+#### CelebA 1-channel
 <img src="https://github.com/Schlumberger/ML_code_playground/blob/master/pixel_cnn_pattern_modeling/imgs/bottom_mask_gif.gif" width='150'>
 <img src="https://github.com/Schlumberger/ML_code_playground/blob/master/pixel_cnn_pattern_modeling/imgs/celeba_1_channel.png" width='400'>
 <img src="https://github.com/Schlumberger/ML_code_playground/blob/master/pixel_cnn_pattern_modeling/imgs/likelihood_image.png" width='400'>
+
+#### CelebA 3-channel
 <img src="https://github.com/Schlumberger/ML_code_playground/blob/master/pixel_cnn_pattern_modeling/imgs/celeba_3_channel.png" width='400'>
 
 ## Running the code
