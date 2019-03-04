@@ -1,3 +1,7 @@
+"""
+Code credit: xia jiang/@nilboy
+"""
+
 """Create image-list file
 Example:
 python tools/create_img_lists.py --dataset=data/celebA --outfile=data/train.txt
