@@ -10,7 +10,7 @@ Semantic inpainting is the task of inferring missing pixels in an image given su
 ## Network Architecture
 Pixel Constrained CNN consists of a prior network (maksed convolutions as described in PixelCNNs) and a conditioning network (regular convolutions). During the training phase, the complete input image is passed through the prior network and the masked image is passed through the conditioning network.
 
-<img src="https://github.com/Schlumberger/pixel-constrained-cnn-tf/blob/master/pixel_cnn_pattern_modeling/imgs/network_architecture.png" width='400'>
+<img src="https://github.com/Schlumberger/pixel-constrained-cnn-tf/blob/master/imgs/network_architecture.png" width='400'>
 
 ## Examples
 #### CelebA 1-channel
